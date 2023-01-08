@@ -11,12 +11,12 @@ import copy
 
 start_time = time.time()
 
-#Functions
+###Functions
 def function(inputs):
     
     return output
 
-#Import and sort File
+###Import and sort File
 input_data = []
 
 with open("input_##_test.txt") as input_dataf:
@@ -29,10 +29,12 @@ with open("input_##_test.txt") as input_dataf:
         
         input_data.append(line)
 
+###Initial Conditions
+
 ###Main Code
 
 
-#Result
+###Result
 print(result)
 
 timetaken = time.time() - start_time
