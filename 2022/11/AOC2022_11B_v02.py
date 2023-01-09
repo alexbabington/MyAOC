@@ -143,7 +143,7 @@ with open("input_11.txt") as input_dataf:
             monkey.append(monkey_if_false)
             
             #This monkey is complete, clear the current monkey
-            print("Monkey read and stored as ",monkey)
+            #print("Monkey read and stored as ",monkey)
             monkeys.append(monkey)
             monkey = []
         else:
